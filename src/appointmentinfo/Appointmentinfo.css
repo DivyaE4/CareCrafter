@@ -1,0 +1,96 @@
+/* .center-table {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+table {
+  width: 80%;
+  max-width: 400px;
+  margin: 0 auto;
+  border:1px solid black;
+  border-collapse: collapse;
+  font-size: 20px;
+}
+
+td {
+  padding: 10px;
+}
+
+input[type="text"],
+input[type="date"],
+input[type="time"],
+textarea {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 18px;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background-color: #0074d9;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+button:hover {
+  background-color: #0056b3;
+} */
+
+/* Styling for the doctor's name */
+p {
+  font-size: 20px; /* Adjust the font size as needed */
+  /* font-weight: bold; */
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Center-align the appointment form */
+.center-table {
+  text-align: center;
+}
+
+/* Styling for the form elements */
+table {
+  margin: 0 auto;
+}
+
+label {
+  font-size: 16px; /* Adjust the font size as needed */
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="date"],
+input[type="time"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px; /* Adjust the font size as needed */
+}
+
+/* Styling for the submit button */
+button[type="submit"] {
+  background-color: #007bff; /* Adjust the button background color */
+  color: #fff; /* Adjust the button text color */
+  border: none;
+  border-radius: 4px;
+  padding: 10px 20px;
+  font-size: 18px; /* Adjust the font size as needed */
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button[type="submit"]:hover {
+  background-color: #0056b3; /* Adjust the button background color on hover */
+}

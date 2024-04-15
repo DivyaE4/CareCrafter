@@ -1,0 +1,56 @@
+.appointment-container {
+  margin-left: 220px; /* Width of the sidebar + some margin for spacing */
+  padding: 20px;
+  height: max-content;
+  background-image: url("C:\healthcare\src\bg.jpg");
+  background-size: cover;
+  background-position:center; 
+  background-repeat: no-repeat;
+  /* background:no-repeat center center fixed; */
+  background-attachment:fixed;
+  height:max-content;
+}
+
+.doctor-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.doctor-card {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 10px;
+  width: 300px; /* Adjust the width as needed */
+  
+}
+
+.doctor-card img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+  height: 100px;
+  align-items: center;
+}
+
+/* .doctor-card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+} */
+
+/* Bookanappointment.css */
+.button-link {
+display: inline-block;
+padding: 10px 20px;
+text-decoration: none;
+border: 2px solid #c97e27; /* Border color */
+color: #007bff; /* Text color */
+border-radius: 5px; /* Optional: Rounded corners */
+transition: all 0.3s ease; /* Optional: Smooth transition */
+}
+
+.button-link:hover {
+background-color: #007bff; /* Background color on hover */
+color: #fff; /* Text color on hover */
+}

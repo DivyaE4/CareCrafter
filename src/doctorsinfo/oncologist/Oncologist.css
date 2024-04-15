@@ -1,0 +1,54 @@
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    max-width: 900px; /* Set a maximum width for the container */
+    margin: 0 auto; /* Center the container on the page */
+    margin-left: 280px; 
+    background-repeat: repeat-y;
+  }
+  
+  .card-link {
+    text-decoration: none;
+    margin: 10px;
+    text-align: center;
+    width: 250px; /* Set a fixed width for each item */
+    height: 50px; /* Set a fixed height for each item */
+    overflow: hidden; /* Hide overflowing content */
+  }
+  
+  .button-link img {
+    width: 100%; /* Make sure the image fills the container */
+    height: 100%; /* Make sure the image fills the container */
+    object-fit: cover; /* Maintain aspect ratio and cover the container */
+    border-radius: 10px; /* Optional: Add border-radius for rounded corners */
+  }
+  
+  /* Center the text under the images */
+  .button-link p {
+    margin-top: 10px;
+  }
+
+  .doctor-card {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+    width: 300px; /* Adjust the width as needed */
+    
+  }
+
+  .card-link {
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    border: 2px solid #c97e27; /* Border color */
+    color: #007bff; /* Text color */
+    border-radius: 5px; /* Optional: Rounded corners */
+    transition: all 0.3s ease; /* Optional: Smooth transition */
+  }
+  
+  .card-link:hover {
+    background-color: #007bff; /* Background color on hover */
+    color: #fff; /* Text color on hover */
+  }
+  
